@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import StructuredData from "@/components/StructuredData";
 import HeroSection from "@/components/HeroSection";
 import ServiceDetails from "@/components/ServiceDetails";
 import StoreLocation from "@/components/StoreLocation";
@@ -17,6 +18,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <>
+      <StructuredData />
       <Navigation />
       <main className="min-h-screen" role="main">
         <HeroSection />
