@@ -1,7 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const Contact = () => {
@@ -64,30 +61,6 @@ const Contact = () => {
             </CardContent>
           </Card>
           
-          <Card className="shadow-elegant border-stone-gray-light">
-            <CardHeader>
-              <CardTitle className="text-2xl text-warm-brown">
-                Napisz do nas
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form className="space-y-4">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <Input placeholder="Imię i nazwisko" className="border-stone-gray-light" />
-                  <Input placeholder="Telefon" className="border-stone-gray-light" />
-                </div>
-                <Input placeholder="E-mail" type="email" className="border-stone-gray-light" />
-                <Textarea 
-                  placeholder="Wiadomość" 
-                  rows={5} 
-                  className="border-stone-gray-light"
-                />
-                <Button variant="fireAccent" size="lg" className="w-full">
-                  Wyślij wiadomość
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
