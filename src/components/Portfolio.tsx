@@ -1,8 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import portfolioImage from "@/assets/portfolio-gallery.jpg";
+import kominek1 from "@/assets/kominek1.png";
+import kominek2 from "@/assets/kominek2.jpg";
+import kominek3 from "@/assets/kominek3.jpg";
 
 const Portfolio = () => {
+  const realizacje = [kominek1, kominek2, kominek3];
+
   return (
     <section className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-6">
@@ -10,52 +13,27 @@ const Portfolio = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-warm-brown mb-6">
             Realizacje
           </h2>
-          
-          <p className="text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+          <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
+            Każda realizacja to efekt współpracy z inwestorem i starannego
+            nadzoru wykonawczego. Realizujemy montaże zarówno lokalnie w
+            Gdańsku, jak i w innych regionach kraju. Przykłady naszych prac
+            obejmują aranżacje w domach jednorodzinnych, mieszkaniach oraz
+            projektach wymagających integracji z instalacją grzewczą.
           </p>
         </header>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {/* Main featured image */}
-          <Card className="md:col-span-2 lg:row-span-2 group overflow-hidden shadow-elegant">
-            <CardContent className="p-0">
-              <div className="relative">
-                <img 
-                  src={portfolioImage} 
-                  alt="Galeria realizacji kominków w Gdańsku"
-                  className="w-full h-80 lg:h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-warm-brown/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="font-semibold text-lg">Nowoczesny kominek</h3>
-                  <p className="text-sm">Gdańsk - dom prywatny</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-          
-          {/* Placeholder cards for more images */}
-          {[1, 2, 3, 4].map((index) => (
-            <Card key={index} className="group overflow-hidden shadow-warm">
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {realizacje.map((src, index) => (
+            <Card key={index} className="overflow-hidden shadow-warm">
               <CardContent className="p-0">
-                <div className="relative bg-stone-gray-light/30 h-40 flex items-center justify-center group-hover:bg-stone-gray-light/50 transition-colors duration-300">
-                  <div className="text-center text-stone-gray">
-                    <div className="w-12 h-12 mx-auto mb-2 bg-gradient-fire rounded-full flex items-center justify-center">
-                      <span className="text-white font-bold">{index}</span>
-                    </div>
-                    <p className="text-sm font-medium">Realizacja {index}</p>
-                  </div>
-                </div>
+                <img
+                  src={src}
+                  alt={`Realizacja ${index + 1}`}
+                  className="w-full h-56 object-cover"
+                />
               </CardContent>
             </Card>
           ))}
-        </div>
-        
-        <div className="text-center">
-          <Button variant="warm" size="lg">
-            Zobacz wszystkie realizacje
-          </Button>
         </div>
       </div>
     </section>

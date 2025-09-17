@@ -26,7 +26,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          Oferujemy kompleksowe prace instalacyjne w Gdańsku - od konsultacji projektowej po gotowy do użytkowania system grzewczy. Realizacje wykonujemy z myślą o ergonomii, estetyce i zgodności z obowiązującymi przepisami.
           </p>
           
           <Button 

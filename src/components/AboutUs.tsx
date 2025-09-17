@@ -14,11 +14,11 @@ const AboutUs = () => {
           <CardContent className="p-12">
             <div className="text-center space-y-6">
               <p className="text-xl text-foreground/80 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Jesteśmy firmą skoncentrowaną na jakości wykonania i dobrym kontakcie z klientem. Nasi doradcy pomagają zaplanować inwestycję na każdym etapie - od koncepcji po serwis. 
               </p>
               
               <p className="text-xl text-foreground/80 leading-relaxed">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Stawiamy na przejrzystą komunikację i rozwiązania, które służą przez lata.
               </p>
               
               <div className="flex justify-center pt-6">

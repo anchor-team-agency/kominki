@@ -30,14 +30,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Obszar działania</h4>
             <p className="text-white/80">
               Gdańsk i okolice<br />
-              Trójmiasto
+              Cała Polska
             </p>
           </div>
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-white/60 text-sm">
-            © 2024 PanKominek. Wszystkie prawa zastrzeżone.
+            © 2025 PanKominek. Wszystkie prawa zastrzeżone.
           </p>
         </div>
       </div>

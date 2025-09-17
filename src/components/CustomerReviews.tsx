@@ -1,22 +1,22 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card"; 
 import { Button } from "@/components/ui/button";
 import { Star, Quote } from "lucide-react";
 
 const reviews = [
   {
-    name: "Jan Kowalski",
+    name: "Marta Zielińska",
     rating: 5,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    text: "Profesjonalna obsługa od początku do końca. Projekt został świetnie dopasowany do naszego wnętrza, a efekt końcowy przeszedł nasze oczekiwania."
   },
   {
-    name: "Anna Nowak", 
+    name: "Tomasz Lewandowski", 
     rating: 5,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse."
+    text: "Kominek został zamontowany szybko i bardzo solidnie. Fachowcy zadbali o każdy detal, a całość prezentuje się elegancko i nowocześnie."
   },
   {
-    name: "Piotr Wiśniewski",
+    name: "Katarzyna Wiatr",
     rating: 5, 
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+    text: "Świetny kontakt z firmą i pełne wsparcie na każdym etapie inwestycji. Zdecydowanie polecam wszystkim, którzy szukają sprawdzonego wykonawcy."
   }
 ];
 
@@ -62,10 +62,25 @@ const CustomerReviews = () => {
             </Card>
           ))}
         </div>
-        
+      
+        <div className="max-w-3xl mx-auto text-center mb-8">
+          <p className="text-foreground/80 leading-relaxed">
+            Dbamy o satysfakcję inwestorów – wiele realizacji skutkuje poleceniami i pozytywnymi ocenami. 
+            Opinie klientów dostępne są na <a href="https://pankominek.eu/opinie/" target="_blank" rel="noopener noreferrer" className="text-fire-orange hover:underline">podstronie z referencjami</a>, 
+            gdzie znajdziesz zdjęcia oraz komentarze dotyczące współpracy i jakości wykonania.
+          </p>
+        </div>
+
         <div className="text-center">
-          <Button variant="outline" size="lg" className="border-warm-brown text-warm-brown hover:bg-warm-brown hover:text-white">
-            Zobacz więcej opinii
+          <Button 
+            asChild
+            variant="outline" 
+            size="lg" 
+            className="border-warm-brown text-warm-brown hover:bg-warm-brown hover:text-white"
+          >
+            <a href="https://pankominek.eu/opinie/" target="_blank" rel="noopener noreferrer">
+              Zobacz więcej opinii
+            </a>
           </Button>
         </div>
       </div>

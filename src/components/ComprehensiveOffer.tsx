@@ -11,33 +11,33 @@ import {
 const services = [
   {
     icon: Palette,
-    title: "Projekt 3D",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Projekt kominka",
+    description: "Przygotowujemy projekt dostosowany do Twoich potrzeb i możliwości technicznych budynku."
   },
   {
     icon: Hammer,
-    title: "Konstrukcja",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Konstrukcja izolacyjna",
+    description: "Montujemy bezpieczne i trwałe warstwy izolacyjne z materiałów niepalnych, chroniące budynek przed przegrzaniem."
   },
   {
     icon: Truck,
     title: "Dostawa",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    description: "Dostarczamy wkład kominkowy oraz wszystkie niezbędne komponenty instalacyjne, w tym systemy odprowadzania spalin."
   },
   {
     icon: Wrench,
     title: "Montaż",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    description: "Wykonujemy pełny montaż mechaniczny i estetyczny, dbając o precyzję oraz wysoką jakość zabudowy."
   },
   {
     icon: PlayCircle,
     title: "Uruchomienie",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    description: "Przeprowadzamy testy pracy, sprawdzamy ciąg kominowy i szczelność, a następnie przekazujemy protokół odbioru."
   },
   {
     icon: ShieldCheck,
     title: "Gwarancja",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    description: "Każda realizacja objęta jest gwarancją – zapewniamy bezpieczeństwo, serwis i długotrwałe użytkowanie."
   }
 ];
 
@@ -52,10 +52,12 @@ const ComprehensiveOffer = () => {
           
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+              W Gdańsku realizujemy pełen zakres prac kominkowych – od projektu, przez dostawę i montaż, aż po uruchomienie i gwarancję. 
+              Każdy etap prowadzimy według sprawdzonych procedur, dbając o bezpieczeństwo i estetykę wykonania.
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+              Nasi instalatorzy posiadają odpowiednie uprawnienia i doświadczenie w pracy z różnymi typami urządzeń: wkładami powietrznymi, 
+              z płaszczem wodnym, systemami gazowymi oraz piecami wolnostojącymi.
             </p>
           </div>
         </header>

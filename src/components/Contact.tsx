@@ -11,11 +11,8 @@ const Contact = () => {
           </h2>
           
           <p className="text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-            Skontaktuj się z nami, aby umówić bezpłatną konsultację i wycenę montażu kominka.
-          </p>
-          
-          <p className="text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mt-4">
-            Jesteśmy do Twojej dyspozycji od poniedziałku do piątku.
+            Zapraszamy do kontaktu przez e-mail lub telefon. Na konsultacji omawiamy warianty techniczne, 
+            możliwości aranżacyjne oraz przygotowujemy ofertę i orientacyjną wycenę.
           </p>
         </header>
         
@@ -56,20 +53,7 @@ const Contact = () => {
                 <div className="w-16 h-16 bg-gradient-fire rounded-full flex items-center justify-center mx-auto">
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
-                <div>
-                  <p className="font-semibold text-warm-brown text-lg mb-2">Adres</p>
-                  <p className="text-foreground/80 text-lg">
-                    ul. Przykładowa 1<br />
-                    80-000 Gdańsk
-                  </p>
-                </div>
               </div>
-            </div>
-            
-            <div className="mt-12 pt-8 border-t border-stone-gray-light text-center">
-              <p className="text-foreground/60">
-                Godziny pracy: Pon-Pt: 8:00-17:00, Sob: 9:00-14:00
-              </p>
             </div>
           </CardContent>
         </Card>

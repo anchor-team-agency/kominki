@@ -11,33 +11,33 @@ import {
 const advantages = [
   {
     icon: Award,
-    title: "Długoletnie doświadczenie",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Ponad 45 lat obecności na rynku",
+    description: "Realizujemy projekty o różnym stopniu skomplikowania, od prostych montażów po zaawansowane systemy zintegrowane z instalacją centralnego ogrzewania."
   },
   {
     icon: Users,
-    title: "Wykwalifikowany zespół",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Instalatorzy z uprawnieniami",
+    description: "Nasi monterzy pracują bez pośredników, co zapewnia spójność jakości i odpowiedzialność za realizacje."
   },
   {
     icon: ShieldCheck,
-    title: "Jasne warunki gwarancyjne",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Aż 13 lat gwarancji na wykonane usługi",
+    description: "Oferujemy wsparcie posprzedażowe i konkretne warunki gwarancji obejmujące zarówno montaż, jak i użyte materiały."
   },
   {
     icon: Truck,
-    title: "Własna logistyka",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Własna baza transportowa",
+    description: "Dysponujemy środkami transportu przystosowanymi do przewozu urządzeń i elementów zabudowy, co przyspiesza realizacje."
   },
   {
     icon: CreditCard,
-    title: "Elastyczne finansowanie",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    title: "Elastyczne formy finansowania",
+    description: "Proponujemy różne opcje płatności, które ułatwiają sfinansowanie inwestycji bez zbędnych formalności."
   },
   {
     icon: HeartHandshake,
     title: "Pełne wsparcie posprzedażowe",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    description: "Oferujemy instruktaż, porady eksploatacyjne oraz serwis gwarancyjny i pogwarancyjny."
   }
 ];
 
@@ -51,7 +51,8 @@ const WhyUs = () => {
           </h2>
           
           <p className="text-lg text-foreground/80 leading-relaxed max-w-3xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Specjalizujemy się w tworzeniu rozwiązań dopasowanych do indywidualnych potrzeb – łączymy praktyczne doświadczenie z aktualną wiedzą techniczną. 
+            Stawiamy na przejrzystość warunków, terminowość i rzetelne wykonawstwo.
           </p>
         </header>
         
