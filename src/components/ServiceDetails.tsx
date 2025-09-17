@@ -14,11 +14,11 @@ const ServiceDetails = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            Wykonujemy instalacje kominkowe na terenie Gdańska od planowania po odbiór techniczny. Zapewniamy pomoc przy wyborze wkładu, projekt zabudowy dopasowany do stylu wnętrza oraz rzetelny montaż przeprowadzony przez przeszkolony zespół.
             </p>
             
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            Montaż kominka to nie tylko montaż urządzenia - to również dobór odpowiednich materiałów, analiza systemu wentylacji i dopasowanie rozwiązań do wymagań budowlanych. Do każdego zlecenia podchodzimy osobno, uwzględniając układ pomieszczeń, oczekiwaną moc grzewczą i preferencje estetyczne.
             </p>
             
             <Card className="bg-gradient-warm border-0 shadow-warm">
